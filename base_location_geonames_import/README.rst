@@ -26,7 +26,7 @@ system parameter.
 Usage
 =====
 
-Go to *Sales > Configuration > Address book > Localization > Import from Geonames*,
+Go to *Settings > Technical > Cities/Locations Management > Import from Geonames*,
 and click on it to open a wizard.
 
 When you start the wizard, it will ask you to select a country. Then, for the
@@ -55,6 +55,7 @@ Contributors
 * Alexis de Lattre <alexis.delattre@akretion.com>
 * Lorenzo Battistini <lorenzo.battistini@agilebg.com>
 * Pedro M. Baeza <pedro.baeza@serviciosbaeza.com>
+* Dave Lasley <dave@laslabs.com>
 
 Icon
 ----
