@@ -1,13 +1,11 @@
-# Translation of OpenERP Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 #	* passport
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 7.0\n"
+"Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-24 23:40+0000\n"
-"PO-Revision-Date: 2014-02-24 23:40+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,67 +14,8 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: passport
-#: help:res.passport,country_id:0
-msgid "Country of deliverance."
-msgstr ""
-
-#. module: passport
-#: help:res.passport,birth_date:0
-msgid "Date of birth on passport."
-msgstr ""
-
-#. module: passport
-#: help:res.passport,gender:0
-msgid "Gender."
-msgstr ""
-
-#. module: passport
-#: model:ir.actions.act_window,name:passport.action_passport_tree_list
-#: model:ir.model,name:passport.model_res_passport
-#: view:res.partner:0
-#: field:res.partner,passport_ids:0
-msgid "Passport"
-msgstr ""
-
-#. module: passport
-#: field:res.passport,country_id:0
-msgid "Delivery country"
-msgstr ""
-
-#. module: passport
-#: field:res.passport,name:0
-msgid "Owner name"
-msgstr ""
-
-#. module: passport
-#: field:res.passport,gender:0
-msgid "Gender"
-msgstr ""
-
-#. module: passport
-#: field:res.passport,number:0
-msgid "Passport No"
-msgstr ""
-
-#. module: passport
-#: help:res.passport,expiration_date:0
-msgid "Expiration date of passport."
-msgstr ""
-
-#. module: passport
-#: view:res.passport:0
-msgid "PassportTree"
-msgstr ""
-
-#. module: passport
-#: code:addons/passport/res_partner.py:39
-#, python-format
-msgid "New Passport"
-msgstr ""
-
-#. module: passport
-#: view:res.passport:0
-msgid "PassportForm"
+#: field:res.passport,birth_date:0
+msgid "Birth Date"
 msgstr ""
 
 #. module: passport
@@ -85,13 +24,93 @@ msgid "Contact"
 msgstr ""
 
 #. module: passport
-#: help:res.passport,number:0
-msgid "Passport number."
+#: help:res.passport,country_id:0
+msgid "Country of deliverance."
+msgstr ""
+
+#. module: passport
+#: field:res.passport,create_uid:0
+msgid "Created by"
+msgstr ""
+
+#. module: passport
+#: field:res.passport,create_date:0
+msgid "Created on"
+msgstr ""
+
+#. module: passport
+#: help:res.passport,birth_date:0
+msgid "Date of birth on passport."
+msgstr ""
+
+#. module: passport
+#: field:res.passport,country_id:0
+msgid "Delivery country"
+msgstr ""
+
+#. module: passport
+#: field:res.passport,display_name:0
+msgid "Display Name"
+msgstr ""
+
+#. module: passport
+#: field:res.passport,expiration_date:0
+msgid "Expiration date"
+msgstr ""
+
+#. module: passport
+#: help:res.passport,expiration_date:0
+msgid "Expiration date of passport."
 msgstr ""
 
 #. module: passport
 #: selection:res.passport,gender:0
 msgid "Female"
+msgstr ""
+
+#. module: passport
+#: field:res.passport,gender:0
+msgid "Gender"
+msgstr ""
+
+#. module: passport
+#: help:res.passport,gender:0
+msgid "Gender."
+msgstr ""
+
+#. module: passport
+#: field:res.passport,id:0
+msgid "ID"
+msgstr ""
+
+#. module: passport
+#: field:res.passport,__last_update:0
+msgid "Last Modified on"
+msgstr ""
+
+#. module: passport
+#: field:res.passport,write_uid:0
+msgid "Last Updated by"
+msgstr ""
+
+#. module: passport
+#: field:res.passport,write_date:0
+msgid "Last Updated on"
+msgstr ""
+
+#. module: passport
+#: selection:res.passport,gender:0
+msgid "Male"
+msgstr ""
+
+#. module: passport
+#: field:res.passport,name:0
+msgid "Owner name"
+msgstr ""
+
+#. module: passport
+#: view:res.passport:passport.passport_form_view
+msgid "Owner name (As printed into the passport)"
 msgstr ""
 
 #. module: passport
@@ -105,21 +124,30 @@ msgid "Partner"
 msgstr ""
 
 #. module: passport
-#: selection:res.passport,gender:0
-msgid "Male"
+#: model:ir.actions.act_window,name:passport.action_passport_tree_list
+#: model:ir.model,name:passport.model_res_passport
+#: view:res.partner:passport.view_partner_form
+#: field:res.partner,passport_ids:0
+msgid "Passport"
 msgstr ""
 
 #. module: passport
-#: view:res.passport:0
-msgid "Owner name (As printed into the passport)"
+#: field:res.passport,number:0
+msgid "Passport No"
 msgstr ""
 
 #. module: passport
-#: field:res.passport,expiration_date:0
-msgid "Expiration date"
+#: help:res.passport,number:0
+msgid "Passport number."
 msgstr ""
 
 #. module: passport
-#: field:res.passport,birth_date:0
-msgid "Birth Date"
+#: view:res.passport:passport.passport_form_view
+msgid "PassportForm"
 msgstr ""
+
+#. module: passport
+#: view:res.passport:passport.passport_tree_view
+msgid "PassportTree"
+msgstr ""
+
